@@ -1,0 +1,158 @@
+body{
+    background-color: rgba(10, 226, 82, 0.486);
+}
+
+.container {
+    text-align: center;
+}
+.container h1{
+    font-size: 5rem;
+    color: #6e0909ed;
+}
+.container h1 span{
+    color: #01471e;
+}
+.container img{
+    padding-right: 70%;
+}
+.add-task-container {
+    margin-bottom: 20px;
+}
+button .btn{
+    padding-left: 50;
+}
+.add-task-container button {
+    background-color: #05642dd7;
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 1000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-task-container button:hover {
+    background-color: #01471e;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #31a009b0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #267f06;
+}
+
+.task-box {
+    display: inline-block;
+    width: 30%;
+    margin: 10px 1.5%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    vertical-align: top;
+    text-align: center;
+    position: relative;
+    height: 200px;
+}
+
+.task-box h3 {
+    margin-top: 0;
+}
+
+.task-box p {
+    margin-bottom: 5px;
+}
+
+.task-time {
+    font-style: italic;
+    color: #000000;
+    font-weight: 600;
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.action-buttons {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
+
+.action-buttons button {
+    width: 48%;
+    margin: 0 1%;
+}
+
+.edit-btn {
+    background-color: green;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: rgb(68, 117, 68);
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: rgb(226, 10, 10);
+}
